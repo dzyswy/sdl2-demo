@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(sdl2-demo)
+find_package(SDL2 REQUIRED)
+add_executable(MyApp main.cpp)
+target_link_libraries(MyApp SDL2::SDL2)
